@@ -4,14 +4,17 @@ html {
     color: black;
 }
 
+body {
+    margin: 0;
+}
+
 .navBar {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: end;
-    border-color: black;
-    border-style: double;
     margin: 0;
-    background-color: aqua;
+    background-color: bisque;
 }
 
 .titleName {
@@ -42,4 +45,24 @@ html {
     font-size: 24px;
     align-self: center;
     padding-right: 20px;
+}
+
+.backPicOne {
+    background-image: url(../img/waterColor.jpg);
+    height: 250px;
+    width: 100%;
+    position: relative;
+}
+
+.backPicOne h2 {
+    position: absolute;
+    bottom: -2px;
+    right: -16px;
+    padding-right: 40px;
+    color: black;
+    background-color: aqua;
+    font-size: 36px;
+
+ 
+   
 }
