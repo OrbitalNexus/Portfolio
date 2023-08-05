@@ -1,5 +1,5 @@
 html {
-    background-color: gray;
+    background-color: white;
     font-family: 'Times New Roman', Times, serif;
     color: black;
 }
@@ -15,6 +15,10 @@ body {
     justify-content: end;
     margin: 0;
     background-color: bisque;
+}
+
+.navBar a {
+    color: black;
 }
 
 .titleName {
@@ -56,13 +60,99 @@ body {
 
 .backPicOne h2 {
     position: absolute;
-    bottom: -2px;
-    right: -16px;
-    padding-right: 40px;
+    bottom: 8px;
+    right: 10px;
+    padding: 0 5px 5px 5px;
     color: black;
-    background-color: aqua;
+    background-color: bisque;
     font-size: 36px;
+}
 
- 
+.divider {
+    display: flex;
+    align-items: center;
+}
+
+
+.aboutMeSection {
+    display: flex;
+    
+}
+
+.aboutMeSection h3 {
+    font-size: 36px;
+    margin-left: 50px;
    
+}
+
+.aboutMeSection p {
+    margin-left: 75px;
+    
+}
+
+.workPageSection {
+    font-size: 36px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 50px;
+
+}
+
+.workContainerOne {
+    background-image: url(../img/workOne.jpg);
+    height: 300px;
+    width: 800px;
+    position: relative;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+
+.workContainerOne h4 h6 {
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+
+}
+
+.secondRowCards {
+    display: flex;
+    padding-left: 152px;
+}
+
+.workContainerTwo {
+    background-image: url(../img/workTwo.png);
+    height: 300px;
+    width: 383px;
+    position: relative;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+
+.workContainerThree {
+    background-image: url(../img/workThree.png);
+    height: 300px;
+    width: 383px;
+    position: relative;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+
+.contactMeSection {
+    display: flex;
+}
+
+.contactMeWords {
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+.contactMeLinks {
+    padding-left: 50px;
+    align-self: center;
 }
