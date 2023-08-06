@@ -173,3 +173,15 @@ a:link {
     align-self: center;
     text-decoration: underline;
 }
+
+.phone {
+    padding: 0 20px 0 0;
+}
+
+.email {
+    padding: 0 20px 0 0;
+}
+
+.github {
+    padding: 0 20px 0 0;
+}
