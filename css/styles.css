@@ -2,10 +2,16 @@ html {
     background-color: white;
     font-family: 'Times New Roman', Times, serif;
     color: black;
+    scroll-behavior: smooth;
 }
 
 body {
     margin: 0;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
 }
 
 .navBar {
@@ -19,6 +25,7 @@ body {
 
 .navBar a {
     color: black;
+    text-decoration: underline;
 }
 
 .titleName {
@@ -90,10 +97,13 @@ body {
     
 }
 
+.workSpacer {
+    padding-left: 65px;
+}
+
 .workPageSection {
     font-size: 36px;
     display: flex;
-    flex-wrap: nowrap;
     padding-left: 50px;
 
 }
@@ -107,18 +117,24 @@ body {
     border-color: aqua;
     border-radius: 5px;
     padding-left: 30px;
+    text-decoration: none;
 }
 
 .workContainerOne h4 h6 {
     position: absolute;
     bottom: 8px;
     left: 10px;
+    
+}
 
+
+.mern:link {
+    color: black;
 }
 
 .secondRowCards {
     display: flex;
-    padding-left: 152px;
+    padding-left: 153px;
 }
 
 .workContainerTwo {
@@ -147,7 +163,7 @@ body {
     display: flex;
 }
 
-.contactMeWords {
+#contactMeLink {
     font-size: 36px;
     padding-left: 50px;
 }
@@ -155,4 +171,5 @@ body {
 .contactMeLinks {
     padding-left: 50px;
     align-self: center;
+    text-decoration: underline;
 }
