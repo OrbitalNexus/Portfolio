@@ -91,18 +91,15 @@ main {
     background-image: url(../img/workOne.jpg);
 }
 
-#workContainerOne h4 h6 {
-    position: absolute;
-    bottom: 8px;
-    left: 10px;
-    
-}
 
 .secondRowCards {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
 }
 
 #workContainerTwo {
@@ -110,6 +107,8 @@ main {
     width: 383px;
     margin-right: 10px;
 }
+
+
 
 #workContainerThree {
     background-image: url(../img/workThree.png);
@@ -123,4 +122,48 @@ main {
 
 .contactMeLinks a {
     padding: 0 20px 0 0;
+}
+
+@media screen and (min-width: 760px) {
+    .aboutMeSection {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1260px) {
+    .workPageSection {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+}
+
+@media screen and (min-width: 1260px) {
+    #workContainerOne {
+        width: 363px;
+
+    }
+}
+
+@media screen and (min-width: 1260px) {
+    .secondRowCards {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1260px) {
+    .contactMeSection {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1260px) {
+    .contactMeLinks {
+        justify-content: center;
+        align-self: center;
+    }
 }
